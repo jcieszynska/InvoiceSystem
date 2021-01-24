@@ -10,10 +10,13 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+                <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/foundation-sites@6.6.3/dist/css/foundation.min.css" integrity="sha256-ogmFxjqiTMnZhxCqVmcqTvjfe1Y/ec4WaRj/aQPvn+I=" crossorigin="anonymous">
         <title>Edit</title>
+
     </head>
     <body>
-        <h1>Edit Invoices</h1>
+        <h1>Edit Invoice</h1>
         <div style="width: 900px; margin-left: auto; margin-right: auto">
             <c:forEach items="${getInvoiceById}" var="p">
                 <form action="JSP/ManagerEditInvoice.jsp" method="post">
@@ -27,8 +30,8 @@
                     Price: <br>
                     <input type="text" name="price" value="${p.price}" style="width: 200px"><br>
                     Detail: <br>
-                    <textarea name="detail" value="${p.detail}" style="width: 400px; height: 200px"></textarea><br>
-                    <input type="submit" value="Submit">
+                    <input name="detail" value="${p.detail}" style="width: 400px; height: 100px"></input><br>
+                    <input type="submit" class="button" value="Submit"/>
                 </form>  
             </c:forEach>
         </div>
