@@ -4,8 +4,14 @@
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
             <file>file:/C:/Users/joann/Documents/NetBeansProjects/InvoiceSystem/web/index.html</file>
+            <file>file:/C:/Users/joann/Documents/NetBeansProjects/InvoiceSystem/src/java/dao/DataAccess.java</file>
+            <file>file:/C:/Users/joann/Documents/NetBeansProjects/InvoiceSystem/src/java/model/Invoices.java</file>
             <file>file:/C:/Users/joann/Documents/NetBeansProjects/InvoiceSystem/web/AddNew.html</file>
+            <file>file:/C:/Users/joann/Documents/NetBeansProjects/InvoiceSystem/web/JSP/ManagerAddNew.jsp</file>
+            <file>file:/C:/Users/joann/Documents/NetBeansProjects/InvoiceSystem/src/java/servlet/DeleteInvoice.java</file>
             <file>file:/C:/Users/joann/Documents/NetBeansProjects/InvoiceSystem/web/AllPost.jsp</file>
+            <file>file:/C:/Users/joann/Documents/NetBeansProjects/InvoiceSystem/src/java/servlet/AllPost.java</file>
+            <file>file:/C:/Users/joann/Documents/NetBeansProjects/InvoiceSystem/src/java/servlet/EditInvoice.java</file>
         </group>
     </open-files>
 </project-private>
